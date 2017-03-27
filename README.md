@@ -54,7 +54,7 @@ High scores will be available upon click on the "High Score" section on the top 
 
 The illustration for the controls will be shown just underneath the game board, alongside the game Start and Reset buttons.
 
-![wireframe](Robo-Tapper.svg)
+![wireframe](Robo-Tapper.png)
 
 ## Technologies Used
 
