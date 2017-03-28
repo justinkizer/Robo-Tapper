@@ -62,13 +62,13 @@ HTML 5 Canvas, Vanilla JavaScript, and the Create.js library will be used to imp
 
 ## Implementation Timeline
 
-Day 1: Create sprites and all artwork required to animate appropriately
+Day 1: Create sprites and all required artwork, learn how to load images onto the game stage and how to animate them using either TweenJS or basic EaselJS
 
-Day 2: Complete general page layout and begin the foundational game logic
+Day 2: Map animations to game controls and complete general page layout in terms of animation placement, loading screen, high-scores screen, etc.
 
-Day 3: Test and complete the overall gameplay loop
+Day 3: Implement collisions detection and game logic (i.e. fail states, point-scoring, and the difficulty curve)
 
-Day 4: Test, style, and bug-fix as needed
+Day 4: Test, style, and bug-fix as needed - implement sound effects if time permits
 
 ## Bonus features
 
