@@ -1,0 +1,13 @@
+.canvas-container {
+  width: 100%;
+  max-height: 100vh;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.robo-tapper-canvas {
+  background-image: url("../assets/background.png");
+  background-size: cover;
+  min-height: 600px;
+}

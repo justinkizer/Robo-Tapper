@@ -1,0 +1,31 @@
+{
+  "name": "Robo-Tapper",
+  "version": "1.0.0",
+  "description": "As the sole-proprietor of the local Robot Saloon, you'll have to work quickly to ensure that all your customers are served before their thirst overtakes them...and they overtake you!",
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.24.0",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justinkizer/Robo-Tapper.git"
+  },
+  "engines": {
+    "node": "6.2.1",
+    "npm": "3.9.3"
+  }
+}
