@@ -1,0 +1,105 @@
+body {
+  background-color: black;
+}
+
+.canvas-container {
+  width: 100%;
+  max-height: 100vh;
+  height: 0px;
+  /*min-height: 600px;*/
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.header-container {
+  width: 100%;
+  max-height: 100vh;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+h1 {
+  top: 2%;
+  left: 40%;
+  color: white;
+  font-size: 46px;
+  font-family: '../assets/ARCADECLASSIC.TTF';
+  padding: 0;
+  margin: 0;
+}
+
+.robo-tapper-canvas {
+  position: absolute;
+  top: 12%;
+  background-image: url("../assets/instructions.png");
+  background-size: cover;
+  min-height: 600px;
+}
+
+.button-container {
+  top: 85%;
+  left: 0%;
+  position: absolute;
+  width: 100%;
+  max-height: 100vh;
+  height: 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+button {
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 46px;
+  font-family: '../assets/ARCADECLASSIC.TTF';
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: '../assets/ARCADECLASSIC.TTF';
+    src: url('../assets/ARCADECLASSIC.TTF'); /* IE9 Compat Modes */
+    src: url('../assets/ARCADECLASSIC.TTF?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../assets/ARCADECLASSIC.TTF') format('woff2'), /* Super Modern Browsers */
+    url('../assets/ARCADECLASSIC.TTF') format('woff'), /* Pretty Modern Browsers */
+    url('../assets/ARCADECLASSIC.TTF')  format('truetype'), /* Safari, Android, iOS */
+    url('../assets/ARCADECLASSIC.TTF') format('svg'); /* Legacy iOS */
+}
+
+.nav-container {
+  position: absolute;
+  top: 8.5%;
+  left: 0%;
+  width: 100%;
+  max-height: 100vh;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+nav {
+  display: flex;
+  height: 30px;
+  width: 600px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: white;
+  height: 25px;
+}
+
+nav > a {
+  color: white;
+  font-size: 16px;
+  font-family: '../assets/ARCADECLASSIC.TTF';
+}
