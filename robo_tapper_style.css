@@ -4,18 +4,13 @@ body {
 
 .canvas-container {
   width: 100%;
-  max-height: 100vh;
-  height: 0px;
-  /*min-height: 600px;*/
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  position: absolute;
+  left: 17%;
+  top: 12%;
 }
 
 .header-container {
   width: 100%;
-  max-height: 100vh;
-  min-height: 600px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -26,7 +21,7 @@ h1 {
   left: 40%;
   color: white;
   font-size: 46px;
-  font-family: '../assets/ARCADECLASSIC.TTF';
+  font-family: 'assets/ARCADECLASSIC.TTF';
   padding: 0;
   margin: 0;
 }
@@ -34,7 +29,7 @@ h1 {
 .robo-tapper-canvas {
   position: absolute;
   top: 12%;
-  background-image: url("../assets/instructions.png");
+  background-image: url("assets/instructions.png");
   background-size: cover;
   min-height: 600px;
 }
@@ -44,7 +39,6 @@ h1 {
   left: 0%;
   position: absolute;
   width: 100%;
-  max-height: 100vh;
   height: 0px;
   display: flex;
   justify-content: center;
@@ -52,13 +46,13 @@ h1 {
 }
 
 button {
-  height: 30px;
+  height: 50px;
   background-color: transparent;
   border: none;
   outline: none;
   color: white;
   font-size: 46px;
-  font-family: '../assets/ARCADECLASSIC.TTF';
+  font-family: 'assets/ARCADECLASSIC.TTF';
 }
 
 button:hover {
@@ -66,13 +60,13 @@ button:hover {
 }
 
 @font-face {
-  font-family: '../assets/ARCADECLASSIC.TTF';
-    src: url('../assets/ARCADECLASSIC.TTF'); /* IE9 Compat Modes */
-    src: url('../assets/ARCADECLASSIC.TTF?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../assets/ARCADECLASSIC.TTF') format('woff2'), /* Super Modern Browsers */
-    url('../assets/ARCADECLASSIC.TTF') format('woff'), /* Pretty Modern Browsers */
-    url('../assets/ARCADECLASSIC.TTF')  format('truetype'), /* Safari, Android, iOS */
-    url('../assets/ARCADECLASSIC.TTF') format('svg'); /* Legacy iOS */
+  font-family: 'assets/ARCADECLASSIC.TTF';
+    src: url('assets/ARCADECLASSIC.TTF'); /* IE9 Compat Modes */
+    src: url('assets/ARCADECLASSIC.TTF?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('assets/ARCADECLASSIC.TTF') format('woff2'), /* Super Modern Browsers */
+    url('assets/ARCADECLASSIC.TTF') format('woff'), /* Pretty Modern Browsers */
+    url('assets/ARCADECLASSIC.TTF')  format('truetype'), /* Safari, Android, iOS */
+    url('assets/ARCADECLASSIC.TTF') format('svg'); /* Legacy iOS */
 }
 
 .nav-container {
@@ -80,8 +74,6 @@ button:hover {
   top: 8.5%;
   left: 0%;
   width: 100%;
-  max-height: 100vh;
-  min-height: 600px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -89,7 +81,6 @@ button:hover {
 
 nav {
   display: flex;
-  height: 30px;
   width: 600px;
   flex-direction: row;
   justify-content: space-between;
@@ -101,5 +92,5 @@ nav {
 nav > a {
   color: white;
   font-size: 16px;
-  font-family: '../assets/ARCADECLASSIC.TTF';
+  font-family: 'assets/ARCADECLASSIC.TTF';
 }
