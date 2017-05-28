@@ -50,4 +50,4 @@ With time permitting, I'd like to also pursue the following additions to this pr
 
   - Add additional levels, as related to the graphical background rather than solely the difficulty level
 
-  - Add an intro that emulates the boot-up style of the classic arcade machines on which these were originally run
+  - Add an intro that emulates the boot up style of the classic arcade machines on which these were originally run
